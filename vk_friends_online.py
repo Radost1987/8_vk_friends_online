@@ -1,4 +1,5 @@
 import vk
+import getpass
 
 
 APP_ID = 5804520  
@@ -9,7 +10,7 @@ def get_user_login():
 
 
 def get_user_password():
-    your_password=input('Enter your password: ')
+    your_password=getpass.getpass('Enter your password: ')
     return your_password    
 
 
