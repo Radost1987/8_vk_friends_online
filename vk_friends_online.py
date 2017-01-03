@@ -33,7 +33,7 @@ if __name__ == '__main__':
     password = get_user_password()
     try:
         friends_online = get_online_friends(login, password)
-    except:
+    except vk.exceptions.VkAuthError:
         print('Incorrect login or password')
     else:
         if friends_online is not None:
