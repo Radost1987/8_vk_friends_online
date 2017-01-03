@@ -7,6 +7,7 @@ This code displays your vk friends who online.
 ### Requirements
 
 Python 3.5
+
 vk==2.0.2
 
 ### Getting started
