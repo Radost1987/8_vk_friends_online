@@ -1,9 +1,7 @@
 import vk
 
 
-APP_ID = 5804520  # чтобы получить app_id, нужно зарегистрировать своё приложение на https://vk.com/dev
-
-
+APP_ID = 5804520  
 
 def get_user_login():
     your_login=input('Enter your login: ')
