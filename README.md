@@ -14,7 +14,7 @@ vk==2.0.2
 
 * Install module vk-2.0.2
       
-         pip install vk
+         pip install -r requirements.txt
 
 * Run the script in a terminal
 
@@ -24,9 +24,15 @@ vk==2.0.2
 
 ### Example
 
+After running the script asks your login and password from vk account.
+
 ```python
 Enter your login: 89111111111
 Enter your password: 11111111
+```
+If login and password are right, will printed names and surnames your friends, who is online.
+
+```python
 Friends online:
 Алексей Каршуков
 Оксана Миронова
@@ -41,5 +47,10 @@ Friends online:
 Никита Малышев
 ```
 
+If login and password aren’t right, will printed 
+
+```python
+Incorrect login or password
+```
 
 
